@@ -1,0 +1,1773 @@
+Code for main page 
+#mainpage.html
+<html>
+<head> 
+<title> mainpage </title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 style="background-color: cyan; color: red"> COMPUTER SCINECE </h1> 
+<form style="color: navy"> <b>
+ <label> Name: </label>
+    <input type="text" name="fullname" value=" "> 
+    <label> Phone number: </label> 
+    <input type="text" name="number" value=" "/> 
+    <label> Gender </label> 
+    Male 
+    <input type="radio" name="gender" value="male"/> 
+    Female
+    <input type="radio" name="gender" value="female"/> <br>
+    <label> Grade </label>
+    11
+    <input type="checkbox" name="Grade" value="11"/> 
+    12
+    <input type="checkbox" name="Grade" value="12"/>
+</b>
+</form>
+<br>
+<table>
+<tr>
+<th> S.N </th>
+<th> Chapter's Name </th>
+<th> Link to the chapter </th>
+</tr>
+<tr>
+<td> 1 </td>
+<td> Computer System </td>
+<td>
+<a href="chap1.html"> CHAPTER 1 </a> <br>
+</td>
+</tr>
+<Tr>
+<td> 2 </td>
+<td> Number System </td>
+<td>
+<a href="chap2.html"> CHAPTER 2 </a> <br>
+</td>
+</tr>
+<tr>
+<Td> 3 </td>
+<td> Computer Software and Operating System </td>
+<td>
+<a href="chap3.html"> CHAPTER 3 </a> <br>
+</td>
+</tr>
+<Tr>
+<Td> 4 </td>
+<td> Application Package </td>
+<Td>
+<a href="chap4.html"> CHAPTER 4 </a> <br>
+</td>
+</tr>
+<Tr>
+<td> 5 </td>
+<td> Programming concepts and logics </td>
+<Td>
+<a href="chap5.html"> CHAPTER 5 </a> <br>
+</td>
+</tr>
+<tr>
+<Td> 6 </td>
+<td> Web Technology </td>
+<td>
+<a href="chap6.html"> CHAPTER 6 </a> <br>
+</td>
+</tr>
+<tr>
+<td> 7 </td>
+<td> Multimedia </td>
+<td>
+<a href="chap7.html"> CHAPTER 7 </a> <br>
+</td>
+</tr>
+<tr>
+<td> 8 </td>
+<td> Information Security and Cyber Law </td>
+<td>
+<a href="chap8.html"> CHAPTER 8 </a> <br>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Output:
+ 
+ 
+Code for chapter 1
+#chap1.html
+<html>
+<head> 
+<title> Chapter 1 </title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+
+<h1> Chapter 1: Computer System </h2>
+<b> Introduction </b>
+<p> Computer is an electronic device device derived from the Latin word "computere" which means to calculate. It accepts raw facts and figures as an input which are isolated and uninterpreted through input device, process it according to the requirement of the user or command supplied by the user, store it before and after processing of require and produce a meaningful information as an output through an output device. Generally, computer works on IPO (Input-Process-Output) cycle. It follows GIGO (Garbage In Garbage Out) algorithm which means the output is always based on the input supplied by the user. The basic operation of computer is illustrated by following block diagram.
+</p>
+<h3> Characteristics of computer </h3>
+<ul style="color: green">
+<li> Accuracy </li>
+<li> Speed </li>
+<li> Diligence </li>
+<li> Versatility </li>
+<li> Storage </li>
+</ul>
+<h3> Pros of Computer </h3>
+    <ol>
+        <li>Computer is capable of handling larger volume of data and can store huge amount of data.</li>
+        <li>Computer can perform millions of instructions within a limited time frame with the same speed and accuracy.</li>
+        <li>Computers are used to fulfill the general requirement of users.</li>
+        <li>It provides a faster and cheaper way for communication.</li>
+        <li>Computers are used to solve complex and critical situations in which the involvement of humans is almost impossible.</li>
+    </ol>
+<h3> Cons of Computer </h3>
+<ol>
+        <li>Computer is a dull machine, it cannot make decisions on its own.</li>
+        <li>Computer requires electricity or battery in order to operate.</li>
+        <li>It can affect the human eye when used for a long period of time.</li>
+        <li>It requires several peripheral devices and software to run.</li>
+        <li>It cannot think, learn, or react like humans.</li>
+        <li>It cannot draw conclusions or provide feedback.</li>
+    </ol>
+<h3>Generations of Computers</h3>
+    <p>History of computers dates back to the mechanical era where computers were not used for general purposes. It took a long period of time to reach this phase. The development of computers passed through different eras, from mechanical to electromechanical to digital computers. The development in different electronic components, precise engineering, and hi-tech technology has drastically changed the operation of computers. Earlier, computers were only used for specific purposes such as counting and performing basic mathematical operations. Later on, due to the necessity and requirements of users, different general-purpose computers were developed. Therefore, the classification of computers based on their major electronic components, architecture, and modes of operation is known as the generations of computers. Below are the five different generations of computers along with their distinct features:</p>
+    
+    <h4>1. First Generation Computers (1946-1958)</h4>
+    <ul>
+        <li>Used vacuum tubes as their basic electronic components to control and amplify electronic signals.</li>
+        <li>They were large in size, consumed a lot of electricity, and generated a large amount of heat, requiring air conditioning systems to keep the devices cool.</li>
+        <li>Unreliable and prone to frequent hardware failures.</li>
+        <li>Not used for commercial purposes.</li>
+        <li>Machine-level language was used to program these computers.</li>
+        <li>Examples: ENIAC, EDVAC, EDSAC, UNIVAC</li>
+    </ul>
+    <h4>2. Second Generation Computers (1959-1964)</h4>
+    <ul>
+        <li>Used transistors as their basic electronic components.</li>
+        <li>Smaller in size compared to first-generation computers, consuming less electricity and generating less heat.</li>
+        <li>More reliable and less prone to hardware failure.</li>
+        <li>Still not used for commercial purposes as production was difficult and costly.</li>
+        <li>Assembly language was used to program these computers.</li>
+        <li>Examples: IBM 7000, IBM 1401, IBM 1620, NCR 304, MARK III, ATLAS</li>
+        <li>Note: The first computer brought to Nepal was the IBM 1401 for the population census of 2028 BS.</li>
+    </ul>
+    <h4>3. Third Generation Computers (1965-1974)</h4>
+    <ul>
+        <li>Used Integrated Circuits (ICs) as their basic electronic components.</li>
+        <li>Smaller in size, consumed less electricity, and generated less heat.</li>
+        <li>Faster and more reliable compared to first and second-generation computers.</li>
+        <li>Widely used for commercial applications all over the world.</li>
+        <li>High-level languages were used to program these computers.</li>
+        <li>Examples: PDP-8, PDP-11, ICL 2900 series, IBM 360, IBM 370</li>
+    </ul>
+
+    <h4>4. Fourth Generation Computers (1975-1990)</h4>
+    <ul>
+        <li>Used VLSI (Very Large Scale Integrated Circuits) as their main electronic components.</li>
+        <li>Size was drastically reduced, making them more portable.</li>
+        <li>Faster processing and much more reliable.</li>
+        <li>Had larger memory, up to GB and TB.</li>
+        <li>Used advanced high-level languages to program these computers.</li>
+        <li>Examples: Apple Macintosh, IBM PC</li>
+    </ul>
+    <h4>5. Fifth Generation Computers (1990 - onwards)</h4>
+    <ul>
+        <li>Used ULSIC (Ultra Large Scale Integrated Circuits) or microprocessors as their major electronic components.</li>
+        <li>Have or will have artificial intelligence capabilities.</li>
+        <li>Feature extremely high processing power due to parallel processing.</li>
+        <li>Capable of image processing, speech or voice recognition.</li>
+        <li>Use various high-level languages to program these computers.</li>
+    </ul>
+<h3> Components of Computer System <h3>
+<table border="2" cellpadding="10">
+        <tr>
+            <th>Input Unit</th>
+            <th>Processing Unit</th>
+            <th>Output Unit</th>
+        </tr>
+        <tr>
+            <td>
+                Input devices accept data and instructions from the user. The device or unit used to feed raw facts and figures to the computer system for processing, along with a set of instructions, is called the input unit.
+            </td>
+            <td>
+                The CPU is the brain of any computer system. Like in the human body, all major decisions are made by the brain. Similarly, in a computer, all major calculations and comparisons are made inside the CPU. The CPU is also responsible for activating and controlling the operation of other units of a computer system. A microprocessor is a single chip that performs the function of the CPU in microcomputers.
+            </td>
+            <td>
+                The job of an output unit is the reverse of an input unit. It supplies information and the results of computation to the outside world. Thus, it links the computer with the external environment. It consists of devices that translate information processed by the computer into a form that humans can understand.
+            </td>
+        </tr>
+    </table>
+<h2>Computer Memory and Classification</h2>
+
+    <div>
+        <h2>1) Primary Memory/Main Memory</h2>
+        <p>
+            Primary Memory is also known as the main memory of a computer. This is the place where our data and instructions are stored before processing, and the results are stored before displaying the output. Memory which stores data and information currently being used by the computer is known as primary memory.
+        </p>
+
+        <h3>Features of Primary Memory:</h3>
+        <ul>
+            <li>It is not used to store data permanently.</li>
+            <li>It is usually volatile except ROM.</li>
+            <li>It is usually expensive and faster than secondary storage.</li>
+            <li>It is normally used for smaller storage.</li>
+            <li>It is not used to transfer data from one computer to another computer.</li>
+            <li>It is made up of semiconducting material.</li>
+        </ul>
+
+        <h3>There are two types of Primary Memory:</h3>
+        <table>
+<tr>
+<td>
+        <h4>1.1) RAM (Random Access Memory)</h4>
+        <p>RAM stores data and instructions temporarily. It is volatile, meaning data is erased when the power is cut off. RAM is a read-write memory.</p>
+
+        <h5>Types of RAM:</h5>
+        <ul>
+            <li><b>SRAM (Static Random Access Memory)</b>: Made up of transistors. It doesn't need periodic refreshing like DRAM. It is faster but consumes more power.</li>
+            <li><b>DRAM (Dynamic Random Access Memory)</b>: Made up of capacitors. It needs to be refreshed periodically. It is slower and consumes less power than SRAM.</li>
+        </ul>
+</td>
+<td>
+        <h4>1.2) ROM (Read Only Memory)</h4>
+        <p>ROM stores data permanently and is non-volatile. Data remains intact even when the power is off. It is used for storing firmware and the boot-up program.</p>
+
+        <h5>Types of ROM:</h5>
+        <ul>
+            <li><b>PROM (Programmable ROM)</b>: Can be programmed once by using a special machine.</li>
+            <li><b>EPROM (Erasable Programmable ROM)</b>: Can be reprogrammed by erasing data using ultraviolet light.</li>
+            <li><b>EEPROM (Electrically Erasable Programmable ROM)</b>: Can be erased and reprogrammed multiple times using electrical pulses.</li>
+        </ul>
+    </div>
+</td>
+</tr>
+</table>
+    <div>
+        <h2>2) Secondary Memory/Auxiliary Memory</h2>
+        <p>Secondary memory stores data permanently for future reference. It is non-volatile and remains intact without power. It has a huge storage capacity, and it is also known as auxiliary memory.</p>
+
+        <h3>Types of Secondary Memory:</h3>
+        <table>
+    <tr>
+        <td>
+            <h4>2.1) Magnetic Storage</h4>
+            <p>Data is stored in the form of magnetic spots. Magnetic materials are used to store data on devices like hard disks and floppy disks.</p>
+            <h5>Examples of Magnetic Storage:</h5>
+            <ul>
+                <li><b>Hard Disk</b>: A sealed disk consisting of multiple magnetic platters. It is used for storing large volumes of data.</li>
+                <li><b>Floppy Disk</b>: A round, flat disk used for storing data, much smaller in capacity compared to hard disks.</li>
+            </ul>
+        </td>
+        <td>
+            <h4>2.2) Optical Storage</h4>
+            <p>Optical storage uses laser beams to read and write data. It is used for storing large amounts of data on optical disks such as CDs and DVDs.</p>
+            <h5>Examples of Optical Storage:</h5>
+            <ul>
+                <li><b>CD-ROM</b>: Can store up to 700 MB of data. It is used for storing software, videos, and audio.</li>
+                <li><b>DVD</b>: Can store more data than CD-ROM and is used for storing even larger files.</li>
+            </ul>
+        </td>
+        <td>
+            <h4>2.3) Flash Memory</h4>
+            <p>Flash memory is a non-volatile, erasable, and programmable solid-state memory made of semiconductor chips. It is commonly used in devices like memory cards, USB drives, etc.</p>
+        </td>
+    </tr>
+</table>
+    <div>
+
+        <h2>Classification of Computers on the Basis of Size</h2>
+
+        <p>As technology has evolved, the size of computers has drastically reduced. The development of various electronic components has enabled this reduction. Computers are classified based on their size as follows:</p>
+        <table>
+<tr>
+<td>
+        <h4>Super Computer</h4>
+        Supercomputers are the fastest and most powerful computers. They are used for specialized tasks such as weather forecasting and rocket launching. Due to their size and cost, they are not commercially successful.
+</td>
+<td>
+        <h4>Mainframe Computer</h4>
+        Mainframe computers are large, fast, and expensive. They have high processing power and are used for large-scale tasks like population census and industrial applications.
+</td>
+<td>
+        <h4>Mini Computer</h4>
+        Mini computers are smaller than mainframes and are more affordable. They are often used by businesses and industries for medium-sized tasks.
+</td>
+<td>
+        <h4>Micro Computer</h4>
+        Microcomputers are small, low-cost computers that use microprocessors as their main processing unit. Examples include desktops, laptops, and palmtops.
+</td>
+</tr>
+</table>
+        <a href="chap2.html"> Next Chapter </a>
+</body>
+</html>
+
+
+
+
+Output:
+      
+
+
+
+Code for chapter 2
+#chap2.html
+<html>
+<head> 
+<title> Chapter 2 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap1.html"> GO TO PREVIOUS CHAPTER </a>
+<body>
+<h1> Chapter 2:  Number System, Conversion and Boolean Logic </h1>
+<h2>Boolean Operator and Operands</h2>
+
+    <p>
+        Operators are the symbols that define the specific operation. These are three basic operators used in Boolean Algebra, i.e. AND, OR, NOT. Every other operation can be expressed in terms of these basic operations. For example, the NOR operator is the combination of NOT and OR operators. The three basic operators are:
+    </p>
+<table>
+<tr>
+<td>
+    <h2>a. AND Operators</h2>
+    AND operator is represented by “.” So, A AND B is represented by (A.B). The result of the AND operation is exactly the same as simple arithmetic multiplication. That means the result will be high (1) only when both the inputs are high. Note: A AND B can also be represented by AˆB or AnB.
+   </td>
+<td>
+ <h3>Truth table of AND operation:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y = A.B</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+    <h2>b. OR Operator</h2>
+    OR operator is represented by “+” So, A OR B is represented by (A+B). The result of the OR operation is exactly the same as simple arithmetic addition. That means the result will be low (0) if and only if both the inputs are low. Note: A OR B can also be represented by AvB or AuB.
+</td>
+<td>
+    <h3>Truth table of OR operation:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y = A+B</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+    <h2>c. NOT Operator</h2>
+    NOT operator is represented by “-” or “’”. So, NOT operation of an operand A is represented as A’. The NOT operation performs negation, meaning it will give high output (1) for low input (0) and vice-versa.
+</td>
+<td>
+    <h3>Truth table of NOT operation:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>A'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+    <h2>Logic Gate</h2>
+    <p>A logic gate is an electronic circuit that operates on one or more inputs to produce an output. Logic gates are used for binary operations, which are fundamental components for modern digital computers. Logic gates are embedded in an Integrated Circuit (IC). Each gate has its specific function and graphical symbol. In digital computers, there are three basic logic gates:</p>
+<table>
+<tr>
+<td>
+    <h3>a. AND Gate</h3>
+    <p>AND Gate is an electronic circuit that produces high output (1) only when both the inputs are high. The output is the same as the result of basic arithmetic multiplication. This gate may have more than two inputs and produce a single output.</p>
+    <h3>Truth table for AND gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y = A.B</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+<td>
+    <h3>b. OR Gate</h3>
+    <p>OR Gate is an electronic circuit that produces low output (0) when all the inputs are low (0) and produces high (1) output for every possible combination of 0 and 1. The output is the same as basic binary addition. The gate may have two or more than two inputs and produce a single result.</p>
+    <h3>Truth table for OR gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y = A+B</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>c. NOT Gate</h3>
+    <p>NOT Gate is another fundamental gate whose result is the complement of its input. It is also called an inverter. It produces low (0) logic for high (1) input and vice-versa. This Gate has a single input and a single output.</p>
+    <h3>Truth table for NOT gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>A'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+<td>
+    <h3>d. NAND Gate</h3>
+    <p>NAND gate is a derived gate from NOT and AND gates. This gate inverts the output obtained from the AND gate. That means it will produce low (0) output when both the inputs are high (1) and produce high (1) output when any one of the inputs is low (0).</p>
+    <h3>Truth table for NAND gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>A.B</th>
+            <th>Y = (A.B)′</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>e. NOR Gate</h3>
+    <p>NOR gate is derived from the combination of OR gate and NOT gate. This gate inverts the output obtained from the OR gate.</p>
+    <h3>Truth table for NOR gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>A+B</th>
+            <th>Y = (A+B)′</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+<td>
+    <h3>f. Exclusive OR (X-OR)</h3>
+    <p>X-OR gate generates a low (0) output when both the inputs are either low (0) or high (1). It gives high (1) output only when one of the inputs is high (1).</p>
+    <h3>Truth table for X-OR gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>A'</th>
+            <th>B'</th>
+            <th>A'.B</th>
+            <th>A.B'</th>
+            <th>A'.B + A.B'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+</tr>
+<tr>
+<td>
+    <h3>g. Exclusive NOR (X-NOR)</h3>
+    <p>X-NOR gate generates a high (1) output when both the inputs are either low (0) or high (1). It gives low (0) output only when one of the inputs is high (1).</p>
+    <h3>Truth table for X-NOR gate:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>A'</th>
+            <th>B'</th>
+            <th>A.B</th>
+            <th>A'.B'</th>
+            <th>A.B + A'.B'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+    <h2>De-Morgan's Theorem</h2>
+<table style="color:blue; background-color:yellow">
+<tr>
+<td>
+    <h3>First Theorem</h3>
+    <p>The first theorem states that: “The complement of a sum equals the product of its complement.”</p>
+    <p>It is represented as: (A + B)’ = A’.B’</p>
+
+    <h3>Proof of First Theorem:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>(A+B)</th>
+            <th>(A+B)’</th>
+            <th>A'</th>
+            <th>B'</th>
+            <th>A'.B'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+<td>
+    <h3>Second Theorem</h3>
+    <p>The second theorem states that: “The complement of a product equals the sum of its complement.”</p>
+    <p>It is represented as: (A.B)’ = A’ + B’</p>
+
+    <h3>Proof of Second Theorem:</h3>
+    <table border="1">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>(A.B)</th>
+            <th>(A.B)’</th>
+            <th>A'</th>
+            <th>B'</th>
+            <th>A' + B'</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+</td>
+<tr>
+<table>
+<a href="chap3.html"> NEXT CHAPTER </a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+Output:
+     
+
+
+
+
+
+
+
+Code for chapter 3
+#chap3.html
+<html>
+<head> 
+<title> Chapter: 3 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap2.html"> GO TO PREVIOUS CHAPTER </a>
+<h1>Chapter 3: Software </h1>
+    
+    <p>As we know, stand-alone hardware cannot do anything. For the smooth operation of our Computer System, there should be proper coordination between hardware and software. Software helps to mobilize the hardware and other resources. In order to mobilize hardware, we have to write several sets of instructions which instruct the computer what to do and what not to do. These sets of instructions are collectively known as a program, and the term software is the collection of related programs and associated documents.</p>
+
+    <p>In order to produce useful output, hardware and software must work together. Nothing useful can be done with hardware only, and software cannot be utilized without hardware.</p>
+
+    <h2>The different types of software are:</h2>
+    <h3>1) System Software</h3>
+    <p>System software is a set of one or more programs designed to control the operation of our computer system. This type of software doesn't fulfill the specific requirements of the user. They are general programs written to assist humans in the use of the computer system. System software supports the running of other software, communicates with peripheral devices, supports the development of other types of software, and monitors the use of various hardware resources. Thus, the system software makes the operation of the computer system more effective and efficient.</p>
+
+    <h4>1.1) System Management</h4>
+    <p>System management is responsible for proper management and functioning of the computer system. All types of management between computer hardware and software are performed by system management software. There are 3 types of system management software:</p>
+    <table>
+<tr>
+<td>
+    <h5>1.1.1) Operating System</h5>
+    <p>The operating system is a collection of programs that control the overall operation of the computer system. It is the first program that is loaded into memory when the computer is turned on. It provides a platform for other application programs to run and execute. It provides users with an interface so that they can easily communicate with the computer. For example, Linux, Windows, Mac, etc.</p>
+</td>
+<td>
+    <h5>1.1.2) Utility Software</h5>
+    <p>Utility software is supporting software that performs specific tasks related to the maintenance of the computer system. Some utility software is included in the operating system, while others are available separately in the market. They are also called service programs. Examples include Norton Utility, PC Tools, WinZip, etc.</p>
+</td>
+<td>
+    <h5>1.1.3) Device Driver</h5>
+    <p>A device driver is a software responsible for the smooth functioning of hardware devices connected to the computer. When a new device is added, a new software called a device driver is installed. The driver coordinates with the operating system to ensure that the newly installed hardware functions properly.</p>
+</td>
+</tr>
+</table>
+    <h4>1.2) System Development</h4>
+    <p>System development refers to a set of programs used to develop computer programs. This type of software is not used by a normal user but by programmers for the development of new programs. There are two types of system development software:</p>
+    <table>
+<tr>
+<td>
+    <h5>1.2.1) Programming Language</h5>
+    <p>The language with which instructions are given to the computer is known as the programming language. Programming languages consist of keywords, variables, operators, loops, and other symbols. They help facilitate communication between the computer and the user. There are two types of programming languages: low-level language and high-level language.</p>
+</td>
+<td>
+    <h5>1.2.2) Language Translator</h5>
+    <p>A language translator is a special software that translates programs written in one language into another language. This translation is necessary for both low-level and high-level languages. The types of language translators include compilers, interpreters, and assemblers.</p>
+</td>
+</tr>
+</table>
+    <h3>2) Application Software</h3>
+    <p>Application software is a set of one or more programs designed to perform a specific task. These programs are developed to fulfill user demands and direct the computer to solve user-oriented problems, such as preparing bills, calculating equations, and creating mark sheets. Examples include MS-Excel, Photoshop, billing software, etc.</p>
+<table>
+<Tr>
+<td>
+    <h4>2.1) Packaged Software</h4>
+    <p>Packaged software is a generalized set of programs designed and developed for general purposes. These software are generally large-sized, error-free, advanced, and standard, offering much functionality for special work. While these software might not perfectly match the requirements of many organizations, they are developed by reputed software companies and are considered trustworthy. Examples include MS-Office, Adobe, Macromedia, etc.</p>
+</td>
+<td>
+    <h4>2.2) Customized / Tailored Software</h4>
+    <p>Customized software is developed for specific tasks, aimed at solving specific problems for specific users or organizations. The requirements of the user or organization are perfectly matched, and these software can be easily changed since they are developed by local programmers. Examples include payroll systems, inventory management, school management, billing software, and mark sheet evaluation systems.</p>
+</td>
+</tr>
+</table>
+    <hr>
+
+    <h1>Operating System - Introduction</h1>
+    
+    <p>An operating system (OS) is an integrated set of programs that controls overall resources such as the CPU, memory, and input-output devices of a computer system. The major objective of an operating system is to improve the performance and efficiency of a computer system. Like the manager of a company, an operating system is responsible for the smooth and efficient functioning of the entire computer system.</p>
+
+    <p>The operating system provides a platform for other application programs/software to run and execute. It provides users with an interface so that they can easily communicate with the computer, making it more convenient to use and operate.</p>
+
+    <p>An operating system is a collection of programs that controls the overall operation of the computer system. It also controls and coordinates the use of hardware among various application programs for different users. It acts as an interface between the user and the computer hardware. The other major functions of an operating system are:</p>
+
+    <ul>
+        <li>It controls, monitors, and coordinates the overall operation of the computer system.</li>
+        <li>It acts as an interface between the user and the computer.</li>
+        <li>It provides a platform to develop, run, and execute other computer programs.</li>
+        <li>It manages hardware resources such as the CPU, memory, input-output terminals, networking equipment, etc.</li>
+        <li>It hides programming and hardware complexity from the user.</li>
+    </ul>
+<h1>Types of Operating System (OS)</h1>
+    
+    <h2>A) On the basis of processing</h2>
+
+    <h3>1) Multi-programming OS</h3>
+    <p>Multi-programming is used in a multi-user environment. It is a technique in which multiple user programs are executed simultaneously by a single processor. Multi-programming means when two or more programs are provided to the CPU for processing or loaded in the internal storage of the CPU at the same time. Once the portion of one program is executed, the portion of another program is executed, and so on. Thus, multi-programming refers to the concurrent execution of several programs. The main purpose of multi-programming is to increase the utilization of computer and its resources. Different forms of multi-programming OS are multi-tasking, multi-processing, and multi-user.</p>
+
+    <h3>2) Multi-tasking OS</h3>
+    <p>Multi-tasking OS allows more than one program to run concurrently, mainly in a single user system. These computers are capable of executing several tasks or programs at the same time. For executing several tasks, it can be a single or multi-processing system. In some multi-tasking systems, one of the processes is called foreground (active), while others are called background (inactive). Multi-tasking OS increases the productivity of the user by executing many tasks simultaneously. Examples include MS-Windows, Linux, MAC OS, etc.</p>
+
+    <h3>3) Multiprocessing OS</h3>
+    <p>Multi-processing systems have more than one processor linked in a coordinated way. Multiprocessing OS supports running a program on more than one CPU. Generally, super servers are especially designed to support multiple processors. UNIX is commonly used as a multi-processing OS. Multi-programming and multi-processing are not the same concept. Multi-programming involves the concurrent execution of two or more programs by a single CPU, whereas multi-processing involves two or more processors (CPUs) controlling the different activities or executing many programs simultaneously. This concept is also known as parallel processing. It is a more costly and complex technique than multi-programming, dramatically increasing the program execution speed of the computer.</p>
+
+    <h3>4) Time-Sharing OS</h3>
+    <p>Time-sharing is a technique that enables many people located in various terminals to use a particular computer system at the same time. Processor time, shared among multiple users simultaneously, is termed as time-sharing. Multiple jobs are executed by the CPU by switching between them, but the switches occur so frequently that users can receive an immediate response.</p>
+    <h4>Advantages:</h4>
+    <ul>
+        <li>Provides quick response.</li>
+        <li>Reduces CPU idle time.</li>
+    </ul>
+    <h4>Disadvantages:</h4>
+    <ul>
+        <li>Problem of reliability.</li>
+        <li>Less security.</li>
+        <li>Integrity issues.</li>
+    </ul>
+
+    <h3>5) Batch Processing OS</h3>
+    <p>Batch processing is a technique in which similar jobs are grouped together, consisting of programs, data, and system commands. This type of processing is suitable for programs that involve large completion or calculations, like payroll, weather forecasting, or statistical analysis. Users need not wait while the job is being processed. They can submit their program to the operator and collect it later. Jobs are stored on a disk in a batch or queue and executed one after another under the control of the OS.</p>
+    <p>The major disadvantage of batch processing is that it does not allow interaction between the user and the program during execution.</p>
+
+    <h3>6) Multi-threading OS</h3>
+    <p>A program in execution is known as a process and can be divided into multiple smaller sub-processes. These sub-processes are known as threads. Multi-threading OS has the ability to divide processes into threads and execute them concurrently. Threads are individual processes that execute simultaneously in multi-tasking OS.</p>
+
+    <h3>7) Real-time OS</h3>
+    <p>Real-time processing is one that controls the environment by receiving data and taking action quickly to affect the functioning of the environment at the same instant. It is an online processing system where processing time is critical. The entire processing task has to be completed in a predefined time. Real-time OS is suitable for operations such as:</p>
+    <ul>
+        <li>Airlines or flight seat availability</li>
+        <li>Rocket launching systems</li>
+        <li>Wholesale supplier and manufacturer systems</li>
+    </ul>
+
+    <h3>8) Online Processing OS</h3>
+    <p>Online processing is a popular processing technique in which transactions are processed as soon as they happen at the place of origin. It is simpler compared to real-time OS. In this method, users can interact or provide input during processing. The output is provided back to the user as soon as the processing is completed.</p>
+
+    <h2>B) On the basis of User Interface (UI)</h2>
+    <p>A user interface allows users to interact with the computer system. It provides an ideal environment to enhance user experience and interaction with the computer. There are two main types of user interfaces:</p>
+<table>
+<tr>
+<td>
+    <h3>1) Character User Interface (CUI)</h3>
+    <p>CUI is a type of operating system in which the computer operates based on commands issued by the user. All operations require specific commands, making it non-user-friendly. Only individuals with technical knowledge can operate such systems. It is a primitive type of OS where graphics, pictures, icons, drop-down menus, and dialogue boxes are not used, making it harder to use. CUI uses the text mode of a computer, such as MS-DOS and UNIX. A command prompt is a sequence of characters used in CUI. Commands are typed in to instruct the computer.</p>
+    
+    <h4>Features of CUI:</h4>
+    <ul>
+        <li>Single-user, single-tasking operating system.</li>
+        <li>Less user-friendly compared to GUI.</li>
+        <li>Commands are used to instruct the computer.</li>
+        <li>Requires the user to remember commands.</li>
+        <li>Cannot display graphics or multimedia.</li>
+        <li>Faster than GUI systems.</li>
+        <li>Does not recognize pointing devices like mouse or joystick.</li>
+        <li>Can be used in low memory and low processing power computers.</li>
+    </ul>
+</td>
+<td>
+    <h3>2) Graphical User Interface (GUI)</h3>
+    <p>GUI is an operating system in which computers are operated by clicking or selecting icons or dialogue boxes instead of typing direct commands. Graphics such as icons, pictures, drop-down menus, and dialogue boxes make it more user-friendly than CUI. Since the user does not need to remember commands, it is easy to use for non-technical people. The main goal of a GUI is to create an environment where the user can operate the computer without training or remembering commands. Examples of GUI operating systems include Windows, MAC OS, etc.</p>
+
+    <h4>Features of GUI:</h4>
+    <ul>
+        <li>User-friendly interface.</li>
+        <li>No need to remember commands.</li>
+        <li>Supports full multimedia and animation.</li>
+        <li>Requires larger memory for processing.</li>
+        <li>Can be used in network environments.</li>
+        <li>Multi-tasking, multi-programming, and multi-user OS.</li>
+        <li>Supports a wide variety of peripheral devices.</li>
+    </ul>
+</td>
+</tr>
+</table>
+    <h4>Basic Components of GUI:</h4>
+    <ul>
+        <li><strong>Icon:</strong> Small pictures that represent commands, files, or windows.</li>
+        <li><strong>Pointer:</strong> A symbol (usually an angled arrow) controlled by a pointing device (e.g., mouse, trackpad).</li>
+        <li><strong>Desktop:</strong> The area on the display screen where icons are grouped.</li>
+        <li><strong>Windows:</strong> Areas on the screen that can be resized and used for running different programs or displaying information.</li>
+        <li><strong>Menus:</strong> Lists from which users can select commands.</li>
+        <li><strong>Folders:</strong> Graphical representation of a directory.</li>
+    </ul>
+
+    <h2>C) On the mode of user:</h2>
+
+    <h3>1) Single User</h3>
+    <p>A single user OS is designed for use by a single user at any given time. It is most commonly used on home computers or office systems. There are two general types of single-user systems: single-user single-tasking and single-user multi-tasking. Examples of single-user single-tasking OS include MS-DOS and PC-DOS.</p>
+
+    <h3>2) Multi-User</h3>
+    <p>Multi-user OS allows multiple users at different terminals to access a single system with one OS. The multi-user OS shares computer resources among users, allowing each user a slice of the processor's time. This is also known as time-sharing. It gives users the impression that they are being served simultaneously, even though the OS serves them one at a time. Examples of multi-user OS include Linux and UNIX.</p>
+<a href="chap4.html"> NEXT CHAPTER </a>
+</body>
+</html>
+ 
+Output:
+       
+ 
+Code for chapter 4
+#chap4.html
+<html>
+<head>
+<title> Chapter 4 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap3.html"> GO TO PREVIOUS CHAPTER </a>
+<body>
+<h1> Chapter 4: Application Package </h1>
+<h2>Application Package</h2>
+
+    <section>
+        <h2>MS-Word (Word Processor)</h2>
+        <p><strong>Introduction:</strong> MS-Word is a text editing or word processing software developed by Microsoft Corporation, USA, as part of the MS-Office package. Word processing refers to using a computer to create, edit, and print documents. MS-Word enables us to create various types of documents such as letters, reports, brochures, advertisements, and many others. In addition to document creation, editing, and modification, MS-Word provides special facilities such as spell check, grammar checking, searching for synonyms and antonyms, working with columns, tables, special symbols, pictures, graphs, charts, and much more. The document created with MS-Word typically has the ".doc" extension, while newer versions use the ".docx" extension.</p>
+
+        <h3>Features of MS-Word:</h3>
+        <ul>
+            <li><strong>Fast Operation:</strong> MS-Word is a digital text editing software, meaning there are no mechanical movements involved, making it faster in operation.</li>
+            <li><strong>Editing Text Feature (Character Formatting):</strong> MS-Word allows you to easily insert, delete, modify, undo, redo, find, and replace text.</li>
+            <li><strong>Permanent Storage:</strong> Documents created in MS-Word can be stored electronically on a disk or other storage media, allowing for retrieval at any time.</li>
+            <li><strong>Graphics:</strong> You can insert various objects, such as pictures and graphs, into the document wherever necessary.</li>
+            <li><strong>OLE (Object Linking and Embedding):</strong> OLE technology enables the sharing of information between programs through objects, such as charts, pictures, audio, and video files.</li>
+            <li><strong>Mail Merge:</strong> Mail merge is a useful tool that allows you to produce multiple letters, labels, envelopes, and more by using information stored in a list, database, or spreadsheet.</li>
+            <li><strong>Searching:</strong> MS-Word allows you to search for specific words or text and replace or delete them throughout the entire document.</li>
+            <li><strong>Printing:</strong> MS-Word enables users to print their documents at any time.</li>
+            <li><strong>Formatting a Document:</strong> MS-Word offers various tools to format documents, including paragraph alignment, line spacing, creating bullets and numbering, adding borders and shading, and more. Watermarks can also be added to denote confidential information.</li>
+            <li><strong>Spelling and Grammar Checker:</strong> MS-Word provides a spelling and grammar checker to help users create professional and error-free documents.</li>
+            <li><strong>Use of Thesaurus:</strong> MS-Word has a built-in thesaurus, allowing users to easily find synonyms and antonyms for words with a few clicks.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>MS-Excel (Spreadsheet)</h2>
+        <p><strong>Introduction:</strong> MS-Excel is a spreadsheet software that is part of the Microsoft Office suite. It allows users to store, organize, and analyze numerical and text data. Excel is commonly used for performing mathematical calculations, financial modeling, statistical analysis, and creating graphic presentations like bar graphs, pie charts, and more. Files created in MS-Excel have the extensions ".xlsx" and ".xls".</p>
+
+        <h3>Common Terminologies Used in Spreadsheet:</h3>
+        <ul>
+            <li><strong>Worksheet (Spreadsheet):</strong> A worksheet consists of rows and columns where data is organized and calculations are performed.</li>
+            <li><strong>Workbook:</strong> A workbook is a file in which multiple worksheets are stored. By default, a new workbook contains three worksheets.</li>
+            <li><strong>Cell:</strong> The intersection of rows and columns is called a cell. Each cell is referenced by a combination of the column letter and the row number, such as A1, B2, etc. The active cell is where data is currently being entered.</li>
+        </ul>
+
+        <h3>Features of MS-Excel:</h3>
+        <ul>
+            <li>Allows users to work with multiple worksheets simultaneously.</li>
+            <li>Provides tools for creating various charts and graphs.</li>
+            <li>Facilitates organizing and managing large volumes of data.</li>
+            <li>Enables performing calculations automatically using formulas and functions.</li>
+            <li>Supports sorting data in ascending or descending order.</li>
+            <li>Includes features like object linking and embedding.</li>
+            <li>Allows formatting data for better appearance, including font size, color, etc.</li>
+            <li>Includes internet features such as a web toolbar.</li>
+            <li>Provides tools for storing data electronically.</li>
+        </ul>
+
+        <h3>Cell Reference in Excel:</h3>
+        <p>Cell references are critical when writing formulas in Excel. A cell reference refers to the location of data in a spreadsheet, identified by the column letter and row number (e.g., A1, B2).</p>
+        <p>There are two types of cell references:</p>
+        <ul>
+            <li><strong>Relative Cell Reference:</strong> By default, a spreadsheet cell reference is a relative cell reference. It identifies the location of the cell, and formulas can be copied and pasted to other cells without changing the reference.</li>
+            <li><strong>Absolute Cell Reference:</strong> An absolute cell reference includes dollar signs ($) before the column letter and row number, ensuring the cell reference remains fixed when copied and pasted.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>MS-Powerpoint (Presentation)</h2>
+        <p><strong>Introduction:</strong> PowerPoint is a presentation software in the Microsoft Office suite. With PowerPoint, you can create dynamic and professional presentations using predefined layouts, themes, and templates. PowerPoint presentations consist of a series of slides that contain information you want to communicate to your audience. This information can include text, images, graphs, charts, videos, audio, and more. PowerPoint can be used as a supplement to older visual aid technology such as pamphlets, handouts, posters, and chalkboards.</p>
+
+        <h3>Features of MS-Powerpoint:</h3>
+        <ul>
+            <li>Formatting of data helps to make documents more attractive, effective, and interactive.</li>
+            <li>Simple computing operations such as cut, copy, paste, find, and replace are supported.</li>
+            <li>It allows users to use predefined layouts, themes, and templates for faster presentation development.</li>
+            <li>Slide transition and effects can be used for additional visual appeal.</li>
+            <li>Users can create custom animations for presentation slides.</li>
+            <li>Supports both internal and external hyperlinks.</li>
+            <li>Various charts and graphs can be used to convey detailed information.</li>
+            <li>Internet features such as web toolbars, online help, and web linking can also be utilized.</li>
+        </ul>
+    </section>
+<a href="chap5.html"> NEXT CHAPTER </a>
+</body>
+</html>
+ 
+Output:
+   
+
+Code for chapter 5
+#chap5.html
+<html>
+<head> 
+<title> Chapter 4 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap4.html"> GO TO PREVIOUS CHAPTER </a>
+<body>
+
+    <h1>Chapter 5: Programming </h1>
+    <p>As we know, every computerized device does not work by itself. They need to be given some sort of command that makes the computer work. These commands help to instruct the computer and program specific actions required by the user. Since the commands are given in the form of a computer language, programming languages are used to write the set of instructions which command the computer to perform certain actions collectively, called programs. These programs are then integrated to make a complete software. Simply put, software is the collection of different interrelated programs that perform specific functions.</p>
+
+    <p>The program written in any type of programming language is not understood by the computer; hence, we need some sort of language translator or processor such as an assembler, compiler, and interpreter. Their basic function is to convert programs written in any language into machine-level language.</p>
+
+    <p>The program written by the programmer is known as the source program. After converting it, it becomes the object program.</p>
+
+    <h2>Qualities of Good Programs</h2>
+    <ul>
+        <li>It should be easily understood.</li>
+        <li>A program should be correct; it should be error-free.</li>
+        <li>It should be reliable.</li>
+        <li>It should have an easily understandable user interface.</li>
+        <li>It should be portable and flexible.</li>
+    </ul>
+
+    <h2>Programming Language</h2>
+    <p>In order to make communication between the user and computer, we need a computer language that helps the user to generate commands to perform as per the requirement. This language, with which we can give instructions to the computer, is known as a programming language. Programming languages are the set of different keywords, variables, operators, loops, and other entities using different character sets including numbers, special symbols, and alphanumeric values.</p>
+
+    <p>Hence, the process of writing the programming language is known as programming, and the person who writes programs is called a programmer.</p>
+
+    <h2>Types of Programming Language</h2>
+    <h3>1. Low-Level Language</h3>
+    <p>Low-level languages are machine-dependent languages. This means the program written for one type of system cannot be run on another system. Developers must have detailed knowledge about the system they are writing a program for. Programming in low-level languages is difficult and time-consuming.</p>
+<table>
+<tr>
+<td>
+    <h4>a. Machine Level Language (1GL)</h4>
+    <p>This language consists of a sequence of 0’s and 1’s to generate instructions. Since it uses binary numbers, this type of language is directly understood by the processor, resulting in higher execution speeds. However, it is machine-dependent.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Directly understood by the processor, leading to high execution speed.</li>
+        <li>Language translator is not needed.</li>
+        <li>Can be used to program specific-purpose computers.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Hard to develop and debug programs.</li>
+        <li>Machine dependent; cannot be transferred across different systems.</li>
+        <li>Commands are in binary, which is difficult to remember.</li>
+        <li>Programmers must have detailed knowledge of the system.</li>
+    </ul>
+</td>
+<td>
+    <h4>b. Assembly Language (2GL)</h4>
+    <p>Assembly language is also a low-level language. Instead of writing instructions in a series of 0’s and 1’s, we can use mnemonics like ADD, SUB, RST, etc. This language is closer to machine-level language but still requires a language translator like an assembler.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Easier to write, debug, and understand compared to machine-level language.</li>
+        <li>Faster execution compared to high-level languages.</li>
+        <li>Used to develop device drivers.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Machine dependent; programs written for one processor do not work on another.</li>
+        <li>More complex to use due to mnemonics.</li>
+        <li>Development and debugging are more difficult compared to high-level languages.</li>
+    </ul>
+</td>
+<td>
+    <h4>2. High-Level Language</h4>
+    <p>High-level languages are closer to the English language, which makes it easier to develop and debug programs. These languages are machine-independent, meaning programs written for one system can work on others.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Programs are easier to write, debug, and understand.</li>
+        <li>Machine-independent; programs can run on different systems.</li>
+        <li>No need to remember complex mnemonics.</li>
+        <li>Faster program development.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Requires translation into machine-level language before execution.</li>
+        <li>Slower execution compared to low-level languages.</li>
+    </ul>
+</td>
+</tr>
+</table>
+<br>
+<hr >
+<table>
+<tr>
+<td colspan=3 align="center">
+    <h4>Classification of High-Level Languages:</h4>
+</td>
+</tr>
+<tr>
+<Td>
+    <h5>a. Procedural-Oriented Language (3GL)</h5>
+    <p>This type of language focuses on procedures or routines. It is used to express logic and procedure. It follows a top-down approach, where the main function is written at the bottom of the program.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Easier to write and debug programs compared to low-level languages.</li>
+        <li>Used for general-purpose programming.</li>
+        <li>Machine-independent.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Requires a language translator to execute the program.</li>
+        <li>Program execution is slower compared to low-level languages.</li>
+    </ul>
+</td>
+<td>
+    <h5>b. Problem/Objective-Oriented Language (4GL)</h5>
+    <p>This is an advanced form of high-level language that focuses more on data than on procedure. It uses a bottom-up approach.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Supports advanced, user-friendly software development.</li>
+        <li>Machine-independent.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Requires a language translator.</li>
+        <li>Execution is slower.</li>
+    </ul>
+</td>
+<td>
+    <h5>c. Natural Language (5GL)</h5>
+    <p>Natural language uses common language to express commands. It's still in the development stage, with languages like PROLOG being used.</p>
+
+    <h5>Advantages:</h5>
+    <ul>
+        <li>Easy to write and debug programs.</li>
+        <li>Machine-independent.</li>
+    </ul>
+
+    <h5>Disadvantages:</h5>
+    <ul>
+        <li>Requires a language translator.</li>
+        <li>Program execution is slower.</li>
+    </ul>
+</td>
+</tr>
+</table>
+    <h2>Language Translator/Processor</h2>
+    <p>A language translator is a system development software that converts programs written in assembly or high-level languages (source programs) into machine-level languages (object programs). Different types of language translators include:</p>
+<table>
+<tr>
+<td>
+    <h3>Assembler</h3>
+    An assembler converts assembly-level programs into machine-level programs.
+</td>
+<td>
+    <h3>Compiler</h3>
+    A compiler converts high-level language programs into machine-level programs in one go, but debugging can be complex and time-consuming.
+</td>
+<Td>
+    <h3>Interpreter</h3>
+    An interpreter translates one statement at a time and is easier to debug, but program execution is slower compared to a compiler.
+</td>
+</tr>
+</table>
+    <h2>Difference Between Compiler and Interpreter</h2>
+    <table border="1">
+        <tr>
+            <th>S.N.</th>
+            <th>Compiler</th>
+            <th>Interpreter</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Translates the whole program at once.</td>
+            <td>Translates one line at a time.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Finds errors after compiling the entire program.</td>
+            <td>Finds errors after translating each line.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Faster translation process.</td>
+            <td>Slower translation process.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Difficult to debug.</td>
+            <td>Easier to debug.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Requires more memory space.</td>
+            <td>Requires less memory space.</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Older programming languages.</td>
+            <td>Newer programming languages.</td>
+        </tr>
+    </table>
+
+    <h2>Syntax and Semantics</h2>
+    <p>In programming, syntax refers to the structure or rules of the programming language, while semantics refers to the meaning attached to individual symbols or words.</p>
+
+    <h2>Error (BUG)</h2>
+    <p>Errors in a program are known as bugs. Bugs may arise due to poor problem analysis, incorrect language usage, or hardware failure.</p>
+
+    <h3>Types of Errors:</h3>
+    <ul>
+        <li><b>Syntax Error</b>: Errors due to incorrect rules of the programming language.</li>
+        <li><b>Logical Error</b>: Errors due to faulty logic.</li>
+        <li><b>Runtime Error</b>: Errors that occur during the execution of the program.</li>
+    </ul>
+
+    <h2>Common Terminology in Programming</h2>
+    <h3>Data Types</h3>
+    <p>Data types specify the kind of data used in a program, such as numeric or character values.</p>
+
+    <h3>Variables and Constants</h3>
+    <p><b>Variable</b>: Holds values that can change during the program's execution.</p>
+    <p><b>Constant</b>: Holds values that do not change during the program's execution.</p>
+
+    <h3>Operands and Operators</h3>
+    <p>Operands are the values on which an operation is performed. Operators are special symbols used to perform specific operations.</p>
+
+    <h3>Types of Operators</h3>
+    <ul>
+        <li>Arithmetic Operators: +, -, /, *</li>
+        <li>Relational Operators: <, >, >=, <=, =</li>
+        <li>Logical Operators: AND, OR, NOT</li>
+    </ul>
+
+    <h2>Program Design Tools</h2>
+    <p>Common tools for designing programs include algorithms, flowcharts, and pseudocode.</p>
+
+    <h3>Algorithm</h3>
+    <p>An algorithm is a step-by-step procedure for solving a specific problem, written in a simple, human-readable language.</p>
+<h3>Flowchart</h3>
+    <p>A flowchart is a diagrammatic representation of an algorithm, using standardized symbols to represent actions and decisions.</p>
+
+    <h3>Pseudocode</h3>
+    <p>Pseudocode is a high-level description of the program logic, written in simple English.</p>
+<a href="chap6.html"> NEXT CHAPTER </a>
+</body>
+</html>
+
+
+Output:
+      
+ 
+Code for chapter 6
+#chap6.html
+<html>
+<head> 
+<title> chapter 6 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap5.html"> GO TO PREVIOUS CHAPTER </a>
+<body>
+<h1> Chapter 6: Introduction to the Internet</h1>
+
+    <p>The Internet is the global network of networks. It is a huge collection of computers all over the world that are inter-connected to one another in various ways to form a web-net.</p>
+
+    <h2>Components required for Internet Connections:</h2>
+    <p>The basic requirements for the Internet are:</p>
+    <ul>
+        <li>A TCP/IP enabled computer with a web browser.</li>
+        <li>An account with an ISP (Internet Service Provider).</li>
+        <li>A telephone line.</li>
+        <li>A MODEM to connect to the telephone line and computer.</li>
+        <li>A computer with the following capacity:
+            <ul>
+                <li>Minimum 386 microprocessor chip with 16 MB RAM.</li>
+                <li>Color monitor with 256 color support and 640x480 resolution.</li>
+                <li>A hard disk of 200 MB free space.</li>
+                <li>Multimedia sound card and speaker.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Internet Services and Applications</h2>
+<table style="background-color: navy">
+<tr>
+<td>
+    <h3>a) World Wide Web (WWW)</h3>
+    WWW is a series of services interconnected through hypertext. It was created in 1990 by the European Particle Physics Laboratory in Geneva, Switzerland, to exchange and share data through the Internet using the Hypertext Transfer Protocol (HTTP).
+</td>
+<Td>
+    <h3>b) Web Browser</h3>
+    A web browser is a computer program that accesses web pages and displays them on the screen. Popular web browsers include Internet Explorer, Safari, Mozilla Firefox, Opera, etc.
+</td>
+<td>
+    <h3>c) FTP - File Transfer Protocol</h3>
+    FTP is an Internet tool that allows users to transfer files from one computer to another.
+</td>
+<td>
+    <h3>d) Electronic Mail (E-mail)</h3>
+    E-mail allows sending and receiving messages electronically over the Internet.
+</td>
+</tr>
+<tr>
+<td>
+    <h3>e) Voicemail</h3>
+    Voicemail is a service that answers telephone calls and records audio messages.
+</td>
+<td>
+    <h3>f) USENET – View and News</h3>
+    USENET is a Bulletin Board System (BBS) with thousands of newsgroups organized by topics.
+</td>
+<td>
+    <h3>g) Chat</h3>
+    Chat allows real-time communication by typing in a virtual room.
+</td>
+<td>
+
+    <h3>h) IRC - Internet Relay Chat</h3>
+    IRC is a multi-user live chat system that connects various servers and allows creating channels for group chats.
+</td>
+</tr>
+<tr>
+<td>
+    <h3>i) Video Conferencing</h3>
+    Video conferencing allows face-to-face communication through webcams, including sound and video.
+</td>
+<td>
+    <h3>j) Universal Resource Locator (URL)</h3>
+    URL is a unique address used to locate resources on the Internet, e.g., <code>http://www.animalplanet.com</code>.
+</td>
+<td>
+    <h3>k) E-Fax (Electronic Fax)</h3>
+    E-Fax allows sending and receiving faxes electronically over the Internet.
+</td>
+<td>
+    <h3>l) TELNET – Remote Login</h3>
+    Telnet allows users to login to a host computer from a remote system.
+</td>
+</tr>
+</table>
+    <h2>Internet Terminologies</h2>
+<table>
+<tr>
+<td>
+    <h3>ISP (Internet Service Provider)</h3>
+    <p>ISP is an organization that provides access to the Internet for a fee.</p>
+</td>
+<td>
+    <h3>Search Engine</h3>
+    <p>Search engines are tools like Yahoo, Google, or AltaVista that help users search websites on the Internet.</p>
+</td>
+<td>
+    <h3>Domain Name and IP Address</h3>
+    <p>Domain name is a unique address for a website. An IP address is a numeric address associated with a domain name.</p>
+</td>
+<td>
+    <h3>DNS Server</h3>
+    <p>The DNS Server is responsible for resolving domain names into IP addresses.</p>
+</td>
+<td>
+    <h3>Web Server</h3>
+    <p>A web server stores and serves web pages to clients (browsers).</p>
+</td>
+</tr>
+</table>
+    <h2>Tags in HTML</h2>
+    <p>HTML tags are the instructions or commands given to a web browser to organize the contents of a webpage.</p>
+    <ul>
+        <li><strong>Pair tags:</strong> Tags that have both opening and closing parts, e.g., <code>&lt;html&gt;...&lt;/html&gt;</code>.</li>
+        <li><strong>Singular tags:</strong> Tags that only have an opening part, e.g., <code>&lt;br&gt;</code>.</li>
+    </ul>
+
+    <h2>Steps to Write and Execute an HTML Document</h2>
+    <ol>
+        <li>Write all HTML tags, attributes, and content in a text editor (Notepad).</li>
+        <li>Save your file with the .HTML extension, e.g., <code>sample.html</code>.</li>
+        <li>Open the file using any web browser.</li>
+    </ol>
+
+    <h2>Difference between E-mail and E-Fax</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>E-mail</th>
+                <th>E-Fax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Very cheap</td>
+                <td>More expensive than E-mail</td>
+            </tr>
+            <tr>
+                <td>Message goes to the local server</td>
+                <td>Message goes to the Internet server before reaching the destination</td>
+            </tr>
+            <tr>
+                <td>Stored in the destination computer</td>
+                <td>Printed directly on the destination's printer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+<a href="chap7.html"> NEXT CHAPTER </a>
+</body>
+</html>
+
+
+
+
+
+Output:
+   
+
+
+Code for chapter 7
+#chap7.html
+<html>
+<head>
+<title>Chapter 7</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <a href="mainpage.html">GO TO MAIN PAGE</a> <br>
+    <a href="chap6.html">GO TO PREVIOUS CHAPTER</a>
+
+    <h1>Chapter 7: Introduction to Multimedia</h1>
+
+    <p>Multimedia consists of two words: ‘Multi’ and ‘Media’. Where ‘multi’ means many and ‘media’ means way/medium of expressing information. Hence, multimedia is the way of expressing information in different forms. The information can be expressed in either text, audio, video, graphics, and animation. We use several forms of media for better understanding and effective communication. By using multimedia, any information can be illustrated in greater depth.</p>
+
+    <p>Since a single form of media is inefficient for better communication and greater understanding, we integrate several components of multimedia (text, audio, video, animation, and graphics) by using multimedia computer systems. Hence, the integration of different forms of media is mandatory for effective communication. A multimedia computer system consists of multimedia hardware and multimedia software. Printer, projector, webcam, microphone, digital camera, etc., are some of the widely used multimedia computer hardware. Similarly, software like text editors (MS Word), presentation tools (PowerPoint), photo editing (Photoshop), video editing (iMovie), accounting packages (Tally), etc., are used as multimedia software. These multimedia hardware and software work together in order to integrate several components of multimedia. For example, a video can be created by integrating audio and images.</p>
+<table style="background-color: darkmagenta">
+<tr>
+<td>
+    <h2>Advantages/Merits/Pros/Importance of Multimedia</h2>
+    <ul>
+        <li>It helps to make communication much more effective.</li>
+        <li>It enhances the level of understanding in any particular topic.</li>
+        <li>Games, cartoons, and movies are made more effective and realistic by using multimedia.</li>
+        <li>It makes the teaching and learning process much more interesting and intuitive.</li>
+        <li>Virtual reality and simulation have become more realistic.</li>
+    </ul>
+</td>
+<Td>
+    <h2>Disadvantages/De-merits/Cons/Limitation of Multimedia</h2>
+    <ul>
+        <li>Multimedia components may be expensive.</li>
+        <li>Technical knowledge and IT literacy are required to operate multimedia.</li>
+        <li>Technology is always changing and never constant.</li>
+        <li>Multimedia devices run on electricity.</li>
+    </ul>
+</td>
+</tr>
+</table>
+    <h2>Components/Elements of Multimedia</h2>
+<table>
+<tr>
+<td>
+    <h3>Text</h3>
+    It is the collection of alpha numeric values or any characters. It can be a word, single line or a paragraph. We can create and customize text by using several text editor or word processor such as MS-Word, Notepad etc. It is the basic form or way of expressing information. By using multimedia software we can customize the text by giving several size, color, type, style etc. Extension of text documents are .docx, .txt etc.
+</td>
+<td>
+    <h3>Graphics/Images</h3>
+    ”A picture is of thousand words" which means picture can describe things more than a text. Graphics generally refers to image or pictures. The smallest element of picture is called Pixel (Picture Element). Hence the quality of image or picture is denoted by number of pixel available in that picture, Generally termed as resolution. We use several multimedia software such as Adobe Photo shop, Corel draw, Adobe indesign etc. Extension of images are .jpeg, .png etc.
+</td>
+<Td>
+    <h3>Audio</h3>
+    Audio is the one of the important components of multimedia. It gives the sensation of hearing. Audio can be used to enhance the understanding level in any particular topic. Audio can be human voice, instrument notes, natural sound, digitally synthesized sound and many more. In these days Audio can be transfer from one place to another by converting it into digital signal. FM radio use this component to express their information. Several multimedia software such as windows media player can be used to play audio. Extension of audio are .mp3, .wma etc.
+</td>
+<td>
+    <h3>Video</h3>
+   The video is the running frames of static pictures that means video are generated by capturing maximum number of images in unit time. Frame per second [FPS] is the term widely used to describe the smoothness of a video. Generally there are 15-25 frame per seconds, to generate smooth movement in video. But 30 and 60 FPS are the widely used standard in different devices. We can use different multimedia software such as iMovie, Final cut pro, Filmora etc to edit and customize our video. Extension of video are .mp4, .mpeg etc.
+</td>
+<Td>
+    <h3>Animation</h3>
+    Animation is the sequence of vector(Computer Generated) image displayed in rapid succession to provide visual effects. These image are computer based images. The animation is created to express ideas where complex explanation should be effectively deliver. These components are widely used in movie industry, and in other entertainment industry. Animation can be either 2D or 3D. 3D animation are more realistic in nature. So, different movies used 3D animation to express information which are not feasible in real life. We use several multimedia software such as Maya animation, Auto CAD, Macromedia flash etc. Extension of animation are .flv, .gif etc.
+</td>
+</tr>
+</table>
+
+    <h2>Application Areas of Multimedia</h2>
+    <ul>
+        <li><strong>Education:</strong> Multimedia is used in teaching and learning processes...</li>
+        <li><strong>Communication:</strong> Multimedia helps in effective communication...</li>
+        <li><strong>Entertainment:</strong> Multimedia is widely used in movies...</li>
+        <li><strong>Medicine:</strong> Multimedia tools are used for medical simulations...</li>
+        <li><strong>Science and Technology:</strong> Multimedia is applied in research...</li>
+        <li><strong>Advertisement:</strong> Multimedia enhances advertisements...</li>
+        <li><strong>Websites/Webpages:</strong> Multimedia elements are used in websites...</li>
+        <li><strong>Research and Engineering:</strong> Multimedia aids in research and development...</li>
+    </ul>
+
+    <a href="chap8.html">NEXT CHAPTER</a>
+
+</body>
+</html>
+ 
+Output:
+   
+
+
+
+
+
+
+
+Code for chapter 8
+#chap8.html
+<html>
+<head>
+<title> Chapter 8 </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<a href="mainpage.html"> GO TO MAIN PAGE </a> <br>
+<a href="chap7.html"> GO TO PREVIOUS CHAPTER </a>
+<body>
+    <h1>Chapter 8: Information Security and Cyber Laws </h1>
+    <p>As we know, In a network or cyber space there is always threat of cyber attacks which may leads to loss and damages of our precious data and information. It is always necessary to be aware of such malicious activity. We need to adopt different measures while using computer from such intentional and accidental activities. Thus, information security refers to the process of protecting our network infrastructure from unauthorized access, misuse, modification, destruction or any malfunction. We can use several physical and software preventive measures to protect ourselves from such unethical activities. Information security helps to create a secure environment for computers, users and programs.</p>
+    
+    <p>Information security can mitigate security threats and security attacks. Security threats is possible danger that might cause unwanted activities in our computer system to breach security and thus cause possible harm whereas security attack is an attempt to gain unauthorized access to destroy, expose, steal or alter others valuable data and information. This attacks can be triggered by malicious application such as viruses, spyware, Trojan horse, WORMS etc.</p>
+
+    <p>Information security are built around three major objectives:</p>
+
+    <ul>
+        <li><strong>Confidentiality:</strong> It means information are available for only the authorized individual, that means individual or any other system cannot use or process others information without proper authorization.</li>
+        <li><strong>Integrity:</strong> It indicates accuracy and completeness of data and information which means without proper authorization data and information cannot be tampered.</li>
+        <li><strong>Availability:</strong> It means information must be always available as per the requirement of the user. It generally refers to accessing out valuable data and information whenever required with in no time.</li>
+    </ul>
+
+    <h2>Cryptography</h2>
+    <p>The cryptography is derived from the Greek word which means “Secret writing”. Cryptography is the art and science of hiding information. It provides security for information. It is used for providing secure communication between individuals, government agencies and military force. Cryptography mostly refers to Encryption and Decryption. Encryption is the process of converting plaintext that is message to unreadable format. So that anyone who tries to see the message cannot read the original message. The plain text are converted into unreadable text using special algorithm and keys. The unreadable text is called cipher text. These cipher text are again converted into readable form through the process of decryption. Decryption is the reverse process of encryption. Sometimes, encryption is also termed as encoding or encipher and its reverse process i.e. decryption is also termed as decoding or decipher.</p>
+
+    <h2>2. What is Digital Divide?</h2>
+    <p>Digital Divide is the term used for the gap between the computer literate and illiterate people. Or it can be said that it is a division between technical and non-technical man powers in the field. IT is the modern technology and for the use of this technology, one can have sound knowledge of computers. But still there are a great number of people, who do not know the computers’ operations. They do not understand the computer related terms. This difference or gap is called digital divide. First, this term came into practice in the mid of 1990s by political speeches and news media. This division is increasing day by day in between urban area people and rural area people, educated and uneducated, rich and poor and so on. So it has become a global issue and governments are trying to bridge this gap.</p>
+
+    <h2>3. What are the computer ethics or cyber ethics?</h2>
+    <p>The computer ethics or the cyber ethics are the set of moral principles or the codes of conduct, which should be strictly followed by the computer professionals. The intention of the computer or cyber ethics is to avoid the criminal activities through the use of computers. The following are some examples of computer ethics:</p>
+
+    <ul>
+        <li>Do not use other’s password</li>
+        <li>Do not steal other’s information</li>
+        <li>Do not use computers to harm others</li>
+        <li>Do not disclose other’s secrecy</li>
+        <li>Do not spread virus in the network</li>
+        <li>Do not copy licensed software, which you have not paid</li>
+        <li>Do not alter other’s data</li>
+        <li>Do not take possession to other people’s intellectual property</li>
+        <li>Do not misuse electronic transaction</li>
+        <li>Do not use computer to bear false witness</li>
+    </ul>
+
+    <h2>4. What is cyber crime? List out some examples of cyber crimes.</h2>
+    <p>The act of misusing computers, Internet or other electronic media is called cyber crime. As the use of Information Technology is increasing, the act of cyber crime is also increasing day by day. The following are some examples of cyber crime:</p>
+
+    <ul>
+        <li>Misuse of computers</li>
+        <li>Spreading virus</li>
+        <li>Stealing other’s information</li>
+        <li>Pirating licensed software</li>
+        <li>Disclosing of other’s secrecy</li>
+        <li>Misuse of electronic transaction and electronic media</li>
+        <li>Rude and vulgar comments in Internet on racial, communal and others</li>
+        <li>Alteration of other data without permission</li>
+        <li>Spying others’ information</li>
+        <li>Cracking or hacking</li>
+        <li>Password guessing</li>
+        <li>Salami saving and data diddling</li>
+        <li>Forgery</li>
+        <li>DOS attack</li>
+    </ul>
+
+    <h2>5. What is Cyber Law? Define and write some provisions of it.</h2>
+    <p>The law regarding the use of computers is called Cyber Law. It highly concerns with the misuse of the computers, Internet and other electronic media, which are specially used for information flow. Cyber ethics just suggest not committing computer crimes or cyber crimes but the cyber law strictly defines the punishment in case of violation of the laws or cyber principles. Actually the cyber law is in practice to support the cyber ethics. Nepal Government also has issued the Cyber Law on 11th Falgun, 2061 (18th March 2005) as “The Electronic Transaction Ordinance, 2005”.</p>
+
+    <p>It has the following provisions:</p>
+
+    <ul>
+        <li>Electronic and Digital Signature Law</li>
+        <li>Intellectual Property Law</li>
+        <li>Copyright Law</li>
+        <li>Trademark Law</li>
+        <li>Semiconductor Law</li>
+        <li>Patent Law</li>
+        <li>Telecommunication Law</li>
+        <li>Data Protection and Privacy Law</li>
+    </ul>
+
+    <h2>6. Explain the different objectives of IT Policy of Nepal.</h2>
+    <p>The IT policies of Nepal are:</p>
+
+    <ul>
+        <li>To declare IT as a high priority sector of government and make it practical</li>
+        <li>To establish knowledge based industries to increase employment</li>
+        <li>To make public information and service delivery inclusive and effective through the philosophy of e-government</li>
+        <li>To increase the productive use of IT in social, economic and business organizations</li>
+        <li>To increase access to IT related international attempts and developments</li>
+        <li>To make Government Integrated Data Center (GIDC) effective in order to develop as an infrastructure for IT development</li>
+    </ul>
+
+</body>
+</html>
+ 
+Output:
+    
+ 
+Code for styling
+#style.css
+h1{
+color: darkmagenta;
+background-color: yellow;
+text-align: centre;
+}
+h2{ 
+color: navy;
+}
+h3{
+color: sienna;
+}
+h4{
+color: Green;
+}
+ol{
+color: indigo;
+}
+ul {
+color:olive;
+}
+p{ 
+color: maroon;
+}
+th{
+background-color: powderblue;
+color: navy;
+}
+td {
+background-color: lightpink;
+color: darkmagenta;
+}
+ 
+Conclusion 
+This was a productive assignment. Along with more learning of html and css, all other chapters were also revised. The webpages are more organized and aligned. The use of css for styling html is applied. I got familiar with the rules and structure of CSS, such as selectors, properties, and values, and how to properly link CSS styles to HTML elements. This knowledge was essential in understanding how styles are applied and how to control the layout and appearance of the page elements in a more precise and effective way.
+
